@@ -1,0 +1,68 @@
+.similar {
+  display: flex;
+  justify-content: center;
+}
+.similar .container-width {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+}
+@media (max-width: 1240px) {
+  .similar .container-width {
+    width: 100%;
+    padding: 100px 20px;
+  }
+}
+.similar h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.5;
+  margin-bottom: 73px;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .similar h2 {
+    font-size: 18px;
+  }
+}
+.similar .similar-list {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.similar .similar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin-top: -25px;
+}
+@media (max-width: 768px) {
+  .similar .similar-item {
+    width: 137px;
+  }
+}
+.similar .similar-item img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 17px;
+}
+@media (max-width: 768px) {
+  .similar .similar-item img {
+    width: 137px;
+    height: 137px;
+  }
+}
+.similar .similar-item h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.similar .similar-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #E0E0E0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=similar.css.map */

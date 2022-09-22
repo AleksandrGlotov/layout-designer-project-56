@@ -1,0 +1,77 @@
+.header {
+  position: relative;
+}
+.header .container-width {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 25px;
+}
+@media (max-width: 1240px) {
+  .header .container-width {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+.header .logo {
+  margin-right: 90px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1240px) {
+  .header .logo {
+    margin-right: 0;
+    margin-bottom: 17px;
+  }
+}
+.header .logo .music-logo {
+  background-image: url(../images/logo.svg);
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.header .logo span {
+  font-size: 11px;
+  line-height: 13px;
+}
+.header ul {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+}
+@media (max-width: 1240px) {
+  .header ul {
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 18px;
+  }
+}
+.header ul li {
+  list-style: none;
+  font-size: 11px;
+}
+.header input {
+  margin-left: auto;
+  width: 248px;
+  padding: 5px 10px;
+  background-color: #3C3B3D;
+  border: none;
+  border-radius: 13px;
+}
+@media (max-width: 1240px) {
+  .header input {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+.header input::placeholder {
+  height: 25px;
+  color: #757575;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+/*# sourceMappingURL=header.css.map */

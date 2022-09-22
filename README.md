@@ -1,2 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/AleksandrGlotov/layout-designer-project-56/workflows/hexlet-check/badge.svg)](https://github.com/AleksandrGlotov/layout-designer-project-56/actions)
+Вторая зачетная работа по верстке на hexlet
+
+hexlet-alexglot-second-lesson.surge.sh

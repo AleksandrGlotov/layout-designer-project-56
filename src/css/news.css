@@ -1,0 +1,114 @@
+.news {
+  display: flex;
+  justify-content: center;
+}
+.news .container-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+@media (max-width: 1240px) {
+  .news .container-width {
+    padding: 100px 20px;
+  }
+}
+.news .margin-news {
+  margin-top: 65px;
+}
+.news h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+}
+@media (max-width: 1240px) {
+  .news h2 {
+    font-size: 18px;
+  }
+}
+.news .news-item {
+  display: flex;
+  gap: 50px;
+}
+@media (max-width: 1240px) {
+  .news .news-item {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1240px) {
+  .news .news-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+.news .news-body {
+  display: flex;
+  flex-direction: column;
+}
+.news .news-body h3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+@media (max-width: 1240px) {
+  .news .news-body h3 {
+    font-size: 16px;
+  }
+}
+.news .news-body p {
+  margin-bottom: 24px;
+}
+.news .news-author {
+  display: flex;
+  margin-bottom: 48px;
+  align-items: center;
+}
+.news .news-author .author {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+.news .news-author .author .author-logo {
+  background-image: url(../images/avatar.png);
+  background-size: 19px 19px;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}
+.news .news-author .author span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #F89202;
+}
+.news .news-author span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #CACACA;
+}
+.news .news-footer a {
+  padding: 16px 31px 17px;
+  display: inline-block;
+  height: 53px;
+  width: 135px;
+  background-color: none;
+  border: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+}
+@media (max-width: 1240px) {
+  .news .order-mob {
+    order: -1;
+  }
+}
+
+/*# sourceMappingURL=news.css.map */

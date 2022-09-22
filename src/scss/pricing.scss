@@ -1,0 +1,61 @@
+.pricing {
+    display: flex;
+    justify-content: center;
+
+    .container-width {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0 0;
+
+        @media (max-width: 1240px) {
+            padding: 100px 20px 0;
+        }
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 1.5;
+        font-weight: 700;
+        margin-bottom: 48px;
+        text-align: center;
+
+        @media (max-width: 1240px) {
+            font-size: 18px;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .pricing-flex {
+        display: flex;
+        gap: 50px;
+
+        @media (max-width: 1240px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .bg-pricing-first {
+        background-image: url('../images/subscribe_1.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-pricing-second {
+        background-image: url('../images/subscribe_2.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bg-pricing-third {
+        background-image: url('../images/subscribe_3.png');
+        background-position: center;
+        background-size: cover;
+    }
+}
